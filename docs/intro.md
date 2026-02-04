@@ -1,47 +1,19 @@
 ---
-sidebar_position: 1
+title: 成都大学新生指南（非官方）
+slug: /intro
 ---
 
-# Tutorial Intro
+欢迎来到成都大学新生指南！这里汇总了**入学必看、校园生活、学习与课程、吃喝玩乐、周边探索、FAQ、关于**等板块内容，帮助你快速上手校园生活。
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## 快速入口
+- [入学必看 → 报到清单](/docs/入学必看/报到清单)
+- [入学必看 → 报到流程](/docs/入学必看/报到流程)
+- [校园生活 → 校园地图](/docs/校园生活/校园地图)
+- [FAQ → 常见问题](/docs/FAQ/常见问题)
 
-## Getting Started
+## 使用方式
+- **先看入学必看**：快速完成报到、住宿、校园卡等流程。
+- **再看校园生活**：找到食堂、超市、图书馆与日常服务。
+- **想玩就看吃喝玩乐与周边探索**：周末出行不踩坑。
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+> 本站为非官方指南，内容由学生经验整理，欢迎在“关于”页面了解参与贡献方式。
