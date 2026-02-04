@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '成都大学新生指南',
+  tagline: '非官方 · 简洁 · 易查找',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -27,8 +27,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'cdu-students', // Usually your GitHub org/user name.
+  projectName: 'cdu-freshman-guide', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -36,8 +36,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -47,26 +47,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -83,9 +65,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: '成都大学新生指南',
         logo: {
-          alt: 'My Site Logo',
+          alt: '成都大学新生指南 Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -93,13 +75,19 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '指南',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            type: 'doc',
+            docId: 'FAQ/常见问题',
+            position: 'left',
+            label: 'FAQ',
+          },
+          {
+            type: 'doc',
+            docId: '关于/关于',
+            position: 'left',
+            label: '关于',
           },
         ],
       },
@@ -107,46 +95,49 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '指南',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '入学必看',
+                to: '/docs/入学必看/报到清单',
+              },
+              {
+                label: '校园生活',
+                to: '/docs/校园生活/校园地图',
+              },
+              {
+                label: '学习与课程',
+                to: '/docs/学习与课程/课程结构',
+              },
+              {
+                label: '吃喝玩乐',
+                to: '/docs/吃喝玩乐/校内美食',
+              },
+              {
+                label: '周边探索',
+                to: '/docs/周边探索/交通到市区',
+              },
+              {
+                label: 'FAQ',
+                to: '/docs/FAQ/常见问题',
+              },
+              {
+                label: '关于',
+                to: '/docs/关于/关于',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '说明',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '本站为非官方指南',
+                to: '/docs/关于/关于',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 成都大学新生指南.`,
       },
       prism: {
         theme: prismThemes.github,

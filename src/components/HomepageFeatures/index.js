@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '入学必看',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        报到清单、宿舍入住、校园卡与避坑提醒，帮助你快速完成入学流程。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '校园生活',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        食堂、超市、图书馆与校园服务一页了解，新生生活不再手忙脚乱。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '吃喝玩乐与周边探索',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        校内外美食、城市地标与周末小旅行，玩得开心也不踩坑。
       </>
     ),
   },
