@@ -1,41 +1,19 @@
-# Website
+# 新生指南（Docusaurus 示例站点）
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+这是一个可以直接运行的 Docusaurus 示例站点模板，主题是「新生必备信息 + 校园生活 + 周边好玩」。
 
-## Installation
-
+## 本地运行
 ```bash
-yarn
+npm install
+npm run start
 ```
 
-## Local Development
-
+## 构建
 ```bash
-yarn start
+npm run build
+npm run serve
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 部署到 Cloudflare Pages
+- Build command: `npm run build`
+- Output directory: `build`

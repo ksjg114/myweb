@@ -1,23 +1,57 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+.hero { padding: 3.5rem 0 2.5rem; }
+.heroInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 1.25rem;
+  align-items: start;
 }
+.heroTitle { font-size: 2.2rem; line-height: 1.1; margin: 0 0 0.6rem 0; }
+.heroSubtitle { font-size: 1.05rem; opacity: 0.9; margin: 0 0 1.1rem 0; }
+.heroActions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0 0 1rem 0; }
+.primaryBtn, .secondaryBtn { display: inline-block; padding: 0.6rem 0.9rem; border-radius: 0.8rem; text-decoration: none; font-weight: 600; }
+.primaryBtn { border: 1px solid var(--ifm-color-primary); }
+.secondaryBtn { border: 1px solid var(--ifm-color-emphasis-300); }
+.metaRow { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.metaPill { font-size: 0.85rem; padding: 0.25rem 0.5rem; border-radius: 999px; border: 1px solid var(--ifm-color-emphasis-300); opacity: 0.9; }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroPanel { border: 1px solid var(--ifm-color-emphasis-300); border-radius: 1rem; padding: 1rem; }
+.panelTitle { font-weight: 700; margin-bottom: 0.65rem; }
+.panelList { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.4rem; }
+.panelCta { display: inline-block; margin-top: 0.8rem; text-decoration: none; font-weight: 600; }
+
+.main { max-width: 1100px; margin: 0 auto; padding: 1rem 1.25rem 3rem; }
+.section, .sectionAlt { padding: 1.6rem 0; }
+.sectionAlt { border-top: 1px solid var(--ifm-color-emphasis-200); border-bottom: 1px solid var(--ifm-color-emphasis-200); }
+.sectionHead h2 { margin: 0 0 0.25rem 0; }
+.sectionHead p { margin: 0 0 1rem 0; opacity: 0.85; }
+
+.grid3, .grid4 { display: grid; gap: 0.9rem; }
+.grid3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+.card {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 1rem;
+  padding: 0.95rem;
+  text-decoration: none;
+  display: grid;
+  gap: 0.45rem;
 }
+.cardHeader { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
+.cardTitle { margin: 0; font-size: 1.05rem; }
+.badge { font-size: 0.75rem; border: 1px solid var(--ifm-color-emphasis-300); border-radius: 999px; padding: 0.15rem 0.45rem; opacity: 0.9; }
+.cardDesc { margin: 0; opacity: 0.85; }
+.cardCta { font-weight: 700; }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.callouts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.9rem; }
+.callout { border: 1px solid var(--ifm-color-emphasis-300); border-radius: 1rem; padding: 0.95rem; }
+
+@media (max-width: 996px) {
+  .heroInner { grid-template-columns: 1fr; }
+  .grid4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid3 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+  .callouts { grid-template-columns: 1fr; }
 }
