@@ -2,12 +2,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 
 const config: Config = {
-  title: 'XX大学新生指南（示例）',
-  tagline: '必备信息 + 校园生活 + 周边好玩，一站搞定',
+  title: '成都大学新生指南（非官方）',
+  tagline: '致力于提供必备信息 + 校园生活 + 周边好玩，一站搞定',
   favicon: 'img/favicon.ico',
 
-  // 你上线后改成真实域名（Cloudflare Pages 也能用默认 pages.dev）
-  url: 'https://example.com',
+  // 域名
+  url: 'https://maoja.top/',
   baseUrl: '/',
 
   organizationName: 'your-org',
@@ -49,7 +49,7 @@ const config: Config = {
         {to: '/docs/food/near-campus', label: '吃喝玩乐', position: 'left'},
         {to: '/docs/explore/transport', label: '周边探索', position: 'left'},
         {to: '/docs/faq', label: 'FAQ', position: 'left'},
-        {href: 'https://github.com/your-org/freshman-guide', label: 'GitHub', position: 'right'},
+        {href: 'https://github.com/ksjg114/myweb', label: 'GitHub', position: 'right'},
       ],
     },
     footer: {
@@ -70,7 +70,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 示例站点`,
+      copyright: `Copyright © ${new Date().getFullYear()} （思考中）`,
     },
     prism: {
       theme: prismThemes.github,
