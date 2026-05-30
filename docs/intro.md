@@ -1,47 +1,40 @@
 ---
-sidebar_position: 1
+title: 成都大学新生指南（非官方）
+slug: /intro
 ---
 
-# Tutorial Intro
+# 成都大学新生指南（非官方）
 
-Let's discover **Docusaurus in less than 5 minutes**.
+> 给第一次来成大的同学：少踩坑、快上手、先活明白，再慢慢探索。
 
-## Getting Started
+![成都大学校园风光](https://www.cdu.edu.cn/__local/B/A7/87/224349942AA4BB6C9441D7A35BB_59225F15_1841C.jpg)
 
-Get started by **creating a new site**.
+## 先看这 4 个入口
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+| 你现在要做什么 | 直接看 |
+| --- | --- |
+| 准备出发 | [报到清单](/docs/入学必看/报到清单) |
+| 到校当天 | [报到流程](/docs/入学必看/报到流程) |
+| 找地方、办事 | [校园地图](/docs/校园生活/校园地图) |
+| 遇到小问题 | [常见问题](/docs/FAQ/常见问题) |
 
-### What you'll need
+## 这个站怎么用
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- **入学必看**：证件、宿舍、报到、避坑。
+- **校园生活**：吃饭、快递、网络、图书馆、日常办事。
+- **学习与课程**：选课、教务系统、学习工具。
+- **吃喝玩乐 / 周边探索**：校内外吃饭、青龙湖、市区、周末路线。
 
-## Generate a new site
+:::info 信息说明
+本指南是学生向的非官方整理。涉及时间、缴费、报到、政策类事项，请以成都大学官网、招生信息网、学院通知和辅导员消息为准。
+:::
 
-Generate a new Docusaurus site using the **classic template**.
+## 常用官方入口
 
-The classic template will automatically be added to your project after you run the command:
+- [成都大学官网](https://www.cdu.edu.cn/)
+- [成都大学招生信息网](https://zhaosheng.cdu.edu.cn/)
+- [教务系统](https://jw.cdu.edu.cn/)
+- [图书馆](https://lib.cdu.edu.cn/)
+- [网上办事大厅](https://ehall.cdu.edu.cn/)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+图片来源：[成都大学官网·校园风光](https://www.cdu.edu.cn/info/1162/1256.htm)
