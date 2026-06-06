@@ -1,41 +1,89 @@
-# Website
+# 成都大学新生指南（非官方）
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+这是一个基于 [Docusaurus](https://docusaurus.io/) 搭建的成都大学非官方新生指南网站，面向即将入学或刚到校的新生，整理报到、交通、宿舍、课程、食堂、校园生活和 FAQ 等信息。
 
-## Installation
+> 本项目不是成都大学官方通知平台。报到、缴费、住宿、军训、请假、课程安排等事项，请以成都大学官网、学院通知、辅导员通知、任课教师要求和现场公告为准。
 
-```bash
-yarn
-```
+## 内容结构
 
-## Local Development
+当前文档主要放在 `docs/` 目录下：
 
-```bash
-yarn start
-```
+- `01-新生报到/`：地铁站、交通方式、校园地图、报到当天、请假与校园跑军训。
+- `02-宿舍篇/`：宿舍相关内容预留入口，后续逐步补充。
+- `03-学习与课程/`：课表、学习通、选课、VPN 与 CDU 邮箱。
+- `04-食堂与吃喝/`：八大食堂、支付提醒、评价渠道。
+- `05-校园生活/`：图书馆、体育馆、游泳馆、健身中心、校内展馆等公共设施。
+- `07-FAQ/`：常见问题预留入口。
+- `08-关于/`：本站说明、反馈方式和免责声明。
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 本地开发环境
 
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+建议使用 Node.js 20 或更高版本。
 
 ```bash
-USE_SSH=true yarn deploy
+node -v
+npm -v
 ```
 
-Not using SSH:
+安装依赖：
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+npm install
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+启动本地开发服务器：
+
+```bash
+npm run start -- --host 0.0.0.0 --port 3000
+```
+
+启动后访问：
+
+```text
+http://localhost:3000
+```
+
+## 构建和本地预览
+
+生成静态站点：
+
+```bash
+npm run build
+```
+
+预览构建产物：
+
+```bash
+npm run serve -- --host 0.0.0.0 --port 3000
+```
+
+## 二进制文件检查
+
+为了避免 GitHub 更新分支时出现“不支持二进制文件”等问题，本项目提供了二进制改动检查脚本：
+
+```bash
+npm run check:no-binary-diff
+```
+
+如需检查某个范围，也可以直接传入 Git diff range：
+
+```bash
+node scripts/check-no-binary-diff.mjs origin/main...HEAD
+```
+
+原则上不要在本项目里直接提交 `.ico`、`.png`、`.jpg`、`.jpeg`、`.gif`、`.webp`、`.pdf`、`.docx`、`.xlsx`、`.zip` 等二进制文件。需要图片时，优先使用学校相关且可公开访问的外链，并在文档中说明来源。
+
+## 反馈和贡献
+
+如果你发现内容过期、链接失效、路线不准确，或想补充宿舍 / 食堂 / 课程经验，欢迎到 GitHub 提 Issue：
+
+- Issues：<https://github.com/cdu-students/myweb/issues>
+
+提交建议时请尽量说明：
+
+1. 哪个页面有问题；
+2. 现在的内容哪里不准确；
+3. 建议修改成什么；
+4. 是否有官网、公众号、通知截图等来源。
+
+请不要在公开 Issue 中暴露手机号、身份证号、学号、宿舍号等个人隐私信息。

@@ -85,7 +85,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: '关于/待补充',
+            docId: '关于/关于本站',
             position: 'left',
             label: '关于',
           },
@@ -119,7 +119,7 @@ const config = {
               },
               {
                 label: '关于',
-                to: '/docs/关于/待补充',
+                to: '/docs/关于/关于本站',
               },
             ],
           },
@@ -128,7 +128,7 @@ const config = {
             items: [
               {
                 label: '本站为非官方指南',
-                to: '/docs/关于/待补充',
+                to: '/docs/关于/关于本站',
               },
             ],
           },
