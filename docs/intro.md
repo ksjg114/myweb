@@ -7,20 +7,11 @@ slug: /intro
 
 > 首页保留快速入口；指南正文按你的新大纲分组。当前已补充“新生报到”“食堂与吃喝”“校园生活”和“学习与课程”中的部分基础内容，其余文章后续继续填。
 
-<svg viewBox="0 0 900 260" role="img" aria-label="成都大学新生指南首页示意图" style={{width: '100%', height: 'auto', borderRadius: '18px', border: '1px solid #dbeafe', background: '#eff6ff'}}>
-  <rect x="0" y="0" width="900" height="260" fill="url(#introGradient)" />
-  <defs>
-    <linearGradient id="introGradient" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stopColor="#1d4ed8" />
-      <stop offset="100%" stopColor="#16a34a" />
-    </linearGradient>
-  </defs>
-  <circle cx="120" cy="88" r="54" fill="rgba(255,255,255,0.18)" />
-  <circle cx="784" cy="190" r="78" fill="rgba(255,255,255,0.14)" />
-  <text x="450" y="98" textAnchor="middle" fill="white" fontSize="38" fontWeight="800">成都大学新生指南</text>
-  <text x="450" y="145" textAnchor="middle" fill="rgba(255,255,255,0.92)" fontSize="20">报到 · 宿舍 · 课程 · 食堂 · 校园生活</text>
-  <text x="450" y="190" textAnchor="middle" fill="rgba(255,255,255,0.86)" fontSize="16">SVG 示意图：不依赖外链图片，避免加载失败</text>
-</svg>
+<img
+  src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80"
+  alt="大学校园建筑与绿地"
+  style={{width: '100%', maxHeight: '320px', objectFit: 'cover', borderRadius: '18px', border: '1px solid #dbeafe'}}
+/>
 
 ## 当前分类
 
@@ -57,4 +48,4 @@ slug: /intro
 - [成都大学 VPN 入口](https://vpn.cdu.edu.cn/portal/)
 - [成都大学校园邮箱](https://mail.cdu.edu.cn/?res=local)
 
-首页示意图为 SVG 文本绘制，没有新增或依赖本地二进制图片。
+图片来源：Unsplash 可访问外链图片；本站未下载或提交本地二进制图片。
