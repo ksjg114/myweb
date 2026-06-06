@@ -107,15 +107,11 @@ const config = {
               },
               {
                 label: '学习与课程',
-                to: '/docs/学习与课程/VPN与CDU邮箱',
+                to: '/docs/学习与课程/课表、学习通与选课',
               },
               {
                 label: '食堂与吃喝',
                 to: '/docs/食堂与吃喝/八大食堂介绍',
-              },
-              {
-                label: '周边探索',
-                to: '/docs/周边探索/待补充',
               },
               {
                 label: 'FAQ',

@@ -20,8 +20,8 @@ const quickLinks = [
   },
   {
     title: '学习与课程',
-    description: 'VPN、CDU邮箱、选课和学习工具逐步补充。',
-    to: '/docs/学习与课程/VPN与CDU邮箱',
+    description: '课表、学习通、选课、VPN 和 CDU 邮箱。',
+    to: '/docs/学习与课程/课表、学习通与选课',
   },
   {
     title: '食堂与吃喝',
@@ -40,7 +40,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <p className={styles.heroDescription}>
-          面向成都大学新生的非官方速查手册：先按新生报到走通，再慢慢补宿舍、课程、食堂和周边。
+          面向成都大学新生的非官方速查手册：先按新生报到走通，再慢慢补宿舍、课程和食堂。
         </p>
         <div className={styles.buttons}>
           <Link
@@ -81,7 +81,7 @@ export default function Home() {
   return (
     <Layout
       title={`欢迎来到${siteConfig.title}`}
-      description="成都大学新生非官方指南：入学必看、校园生活、学习与课程、吃喝玩乐、周边探索与FAQ。">
+      description="成都大学新生非官方指南：入学必看、校园生活、学习与课程、食堂与FAQ。">
       <HomepageHeader />
       <main>
         <QuickStart />
