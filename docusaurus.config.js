@@ -79,13 +79,13 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'FAQ/常见问题',
+            docId: 'FAQ/待补充',
             position: 'left',
             label: 'FAQ',
           },
           {
             type: 'doc',
-            docId: '关于/关于',
+            docId: '关于/待补充',
             position: 'left',
             label: '关于',
           },
@@ -98,32 +98,32 @@ const config = {
             title: '指南',
             items: [
               {
-                label: '入学必看',
-                to: '/docs/入学必看/报到清单',
+                label: '新生报到',
+                to: '/docs/新生报到/地铁站',
               },
               {
-                label: '校园生活',
-                to: '/docs/校园生活/校园地图',
+                label: '宿舍篇',
+                to: '/docs/宿舍篇/待补充',
               },
               {
                 label: '学习与课程',
-                to: '/docs/学习与课程/课程结构',
+                to: '/docs/学习与课程/待补充',
               },
               {
-                label: '吃喝玩乐',
-                to: '/docs/吃喝玩乐/校内美食',
+                label: '食堂与吃喝',
+                to: '/docs/食堂与吃喝/待补充',
               },
               {
                 label: '周边探索',
-                to: '/docs/周边探索/交通到市区',
+                to: '/docs/周边探索/待补充',
               },
               {
                 label: 'FAQ',
-                to: '/docs/FAQ/常见问题',
+                to: '/docs/FAQ/待补充',
               },
               {
                 label: '关于',
-                to: '/docs/关于/关于',
+                to: '/docs/关于/待补充',
               },
             ],
           },
@@ -132,7 +132,7 @@ const config = {
             items: [
               {
                 label: '本站为非官方指南',
-                to: '/docs/关于/关于',
+                to: '/docs/关于/待补充',
               },
             ],
           },

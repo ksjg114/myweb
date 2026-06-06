@@ -5,22 +5,22 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '入学必看',
+    title: '新生报到',
     image: 'https://www.cdu.edu.cn/__local/B/A7/87/224349942AA4BB6C9441D7A35BB_59225F15_1841C.jpg',
-    to: '/docs/入学必看/报到清单',
-    description: '报到清单、流程、宿舍入住和新生避坑，按步骤做就行。',
+    to: '/docs/新生报到/地铁站',
+    description: '地铁站、交通路线、校园地图、报到当天和请假模板集中放这里。',
   },
   {
-    title: '校园生活',
+    title: '宿舍篇',
     image: 'https://www.cdu.edu.cn/__local/1/22/6F/882E3603BBEA404C2E0C4923330_1870F203_1EB33.jpg',
-    to: '/docs/校园生活/校园服务',
-    description: '食堂、快递、校园服务、图书馆和线上系统入口集中整理。',
+    to: '/docs/宿舍篇/待补充',
+    description: '宿舍用品、门禁、洗衣、报修和室友相处，后续按大纲补内容。',
   },
   {
-    title: '吃喝玩乐与周边探索',
+    title: '食堂与吃喝',
     image: 'https://www.cdu.edu.cn/__local/7/52/FA/485DE80A52F585DB64EBA4D33FF_74AE8975_25807.jpg',
-    to: '/docs/周边探索/周末小旅行',
-    description: '十陵、青龙湖、市区和周末小旅行，用低成本打开成都。',
+    to: '/docs/食堂与吃喝/待补充',
+    description: '食堂支付、校内窗口、校外觅食和新生省钱吃饭攻略，后续补充。',
   },
 ];
 

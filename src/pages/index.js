@@ -9,24 +9,24 @@ import styles from './index.module.css';
 
 const quickLinks = [
   {
-    title: '报到清单',
-    description: '证件、材料、生活用品，出发前按表核对。',
-    to: '/docs/入学必看/报到清单',
+    title: '新生报到',
+    description: '地铁站、交通方式、报到当天和请假模板。',
+    to: '/docs/新生报到/地铁站',
   },
   {
-    title: '报到流程',
-    description: '到校先去哪、办什么、怎么避免白跑。',
-    to: '/docs/入学必看/报到流程',
+    title: '宿舍篇',
+    description: '宿舍用品、门禁、作息和报修后续补充。',
+    to: '/docs/宿舍篇/待补充',
   },
   {
-    title: '校园服务',
-    description: '教务系统、邮箱、办事大厅、图书馆入口。',
-    to: '/docs/校园生活/校园服务',
+    title: '学习与课程',
+    description: '选课、正课、考试和学习工具后续补充。',
+    to: '/docs/学习与课程/待补充',
   },
   {
-    title: '周边探索',
-    description: '地铁进城、青龙湖、熊猫基地和周末路线。',
-    to: '/docs/周边探索/周末小旅行',
+    title: '食堂与吃喝',
+    description: '食堂支付、窗口推荐和校外觅食后续补充。',
+    to: '/docs/食堂与吃喝/待补充',
   },
 ];
 
@@ -40,7 +40,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <p className={styles.heroDescription}>
-          面向成都大学新生的非官方速查手册：入学、宿舍、选课、吃饭、出行，一站式查清楚。
+          面向成都大学新生的非官方速查手册：先按新生报到走通，再慢慢补宿舍、课程、食堂和周边。
         </p>
         <div className={styles.buttons}>
           <Link
