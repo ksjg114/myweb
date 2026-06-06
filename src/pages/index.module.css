@@ -1,12 +1,21 @@
-.hero { padding: 3.5rem 0 2.5rem; }
-.heroInner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 1.25rem;
-  display: grid;
-  grid-template-columns: 1.35fr 0.65fr;
-  gap: 1.25rem;
-  align-items: start;
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 5rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1f7a5f 0%, #2fa475 55%, #f0b64f 100%);
+}
+
+.heroDescription {
+  font-size: 1.2rem;
+  margin: 0 auto 1.5rem;
+  max-width: 760px;
+  opacity: 0.95;
 }
 .heroTitle { font-size: 2.2rem; line-height: 1.1; margin: 0 0 0.6rem 0; }
 .heroSubtitle { font-size: 1.05rem; opacity: 0.9; margin: 0 0 1.1rem 0; }
@@ -28,17 +37,10 @@
 .sectionHead h2 { margin: 0 0 0.25rem 0; }
 .sectionHead p { margin: 0 0 1rem 0; opacity: 0.85; }
 
-.grid3, .grid4 { display: grid; gap: 0.9rem; }
-.grid3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.grid4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-
-.card {
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 1rem;
-  padding: 0.95rem;
-  text-decoration: none;
-  display: grid;
-  gap: 0.45rem;
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 1.5rem;
+  }
 }
 .cardHeader { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
 .cardTitle { margin: 0; font-size: 1.05rem; }
@@ -54,4 +56,35 @@
   .grid4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .grid3 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
   .callouts { grid-template-columns: 1fr; }
+}
+
+.quickStart {
+  padding: 3rem 0 1rem;
+}
+
+.quickCard {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 16px;
+  color: inherit;
+  display: block;
+  height: 100%;
+  padding: 1.25rem;
+  text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.quickCard:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  color: inherit;
+  text-decoration: none;
+  transform: translateY(-3px);
+}
+
+.quickCard h3 {
+  margin-bottom: 0.5rem;
+}
+
+.quickCard p {
+  margin: 0;
 }
