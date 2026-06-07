@@ -17,6 +17,13 @@
   max-width: 760px;
   opacity: 0.95;
 }
+
+.heroDescription {
+  font-size: 1.2rem;
+  margin: 0 auto 1.5rem;
+  max-width: 760px;
+  opacity: 0.95;
+}
 .heroTitle { font-size: 2.2rem; line-height: 1.1; margin: 0 0 0.6rem 0; }
 .heroSubtitle { font-size: 1.05rem; opacity: 0.9; margin: 0 0 1.1rem 0; }
 .heroActions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0 0 1rem 0; }
@@ -56,6 +63,37 @@
   .grid4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .grid3 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
   .callouts { grid-template-columns: 1fr; }
+}
+
+.quickStart {
+  padding: 3rem 0 1rem;
+}
+
+.quickCard {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 16px;
+  color: inherit;
+  display: block;
+  height: 100%;
+  padding: 1.25rem;
+  text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.quickCard:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  color: inherit;
+  text-decoration: none;
+  transform: translateY(-3px);
+}
+
+.quickCard h3 {
+  margin-bottom: 0.5rem;
+}
+
+.quickCard p {
+  margin: 0;
 }
 
 .quickStart {
