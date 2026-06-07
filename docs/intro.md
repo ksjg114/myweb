@@ -48,4 +48,4 @@ slug: /intro
 - [成都大学 VPN 入口](https://vpn.cdu.edu.cn/portal/)
 - [成都大学校园邮箱](https://mail.cdu.edu.cn/?res=local)
 
-图片来源：成都大学官网“校园风光”页面、成都大学官网 / 新闻网公开配图、用户提供的语雀材料及 Wikimedia Commons 中成都大学相关照片；本站仅引用可访问外链，未下载或提交本地二进制图片。
+图片来源：成都大学官网“校园风光”页面、成都大学官网 / 新闻网公开配图及 Wikimedia Commons 中成都大学相关照片；本站仅引用可访问外链，未下载或提交本地二进制图片。

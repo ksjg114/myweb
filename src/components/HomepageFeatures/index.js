@@ -12,9 +12,9 @@ const FeatureList = [
   },
   {
     title: '宿舍篇',
-    image: 'https://cdn.nlark.com/yuque/0/2026/jpeg/69073414/1780735416523-de4f1aa9-6174-49eb-b9f3-5be12bbc9c98.jpeg',
+    image: 'https://www.cdu.edu.cn/__local/0/9E/3F/1889F6CC19A775ADB08CBB29FE3_35A2DC9B_1A085.jpg',
     to: '/docs/宿舍篇/宿舍生活',
-    description: '电费、热水、洗衣、门禁、用电、网络和住宿规格，配图来自用户提供的宿舍篇材料。',
+    description: '电费、热水、洗衣、门禁、用电、网络和住宿规格。',
   },
   {
     title: '食堂与吃喝',
