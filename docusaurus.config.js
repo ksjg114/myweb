@@ -103,7 +103,7 @@ const config = {
               },
               {
                 label: '宿舍篇',
-                to: '/docs/宿舍篇/待补充',
+                to: '/docs/宿舍篇/宿舍生活',
               },
               {
                 label: '学习与课程',

@@ -12,15 +12,15 @@ const FeatureList = [
   },
   {
     title: '宿舍篇',
-    image: 'https://www.cdu.edu.cn/__local/0/9E/3F/1889F6CC19A775ADB08CBB29FE3_35A2DC9B_1A085.jpg',
-    to: '/docs/宿舍篇/待补充',
-    description: '宿舍用品、门禁、洗衣、报修和室友相处，后续按大纲补内容；配图来自成大宿舍学习故事。',
+    image: 'https://cdn.nlark.com/yuque/0/2026/jpeg/69073414/1780735416523-de4f1aa9-6174-49eb-b9f3-5be12bbc9c98.jpeg',
+    to: '/docs/宿舍篇/宿舍生活',
+    description: '电费、热水、洗衣、门禁、用电、网络和住宿规格，配图来自用户提供的宿舍篇材料。',
   },
   {
     title: '食堂与吃喝',
-    image: 'https://www.cdu.edu.cn/__local/2/E1/45/CA0F884613823AC1CD96D11E28F_6CF56BDA_2040E.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/%E6%88%90%E9%83%BD%E5%A4%A7%E5%AD%A66%E9%A3%9F%E5%A0%82_2023-07-26_%2854399826232%29.jpg',
     to: '/docs/食堂与吃喝/八大食堂介绍',
-    description: '八大食堂、支付提醒、档口选择和真实评价渠道，配图来自成大食堂相关报道。',
+    description: '八大食堂、支付提醒、档口选择和真实评价渠道，配图展示成都大学食堂环境。',
   },
 ];
 

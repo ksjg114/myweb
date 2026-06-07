@@ -15,8 +15,8 @@ const quickLinks = [
   },
   {
     title: '宿舍篇',
-    description: '宿舍用品、门禁、作息和报修后续补充。',
-    to: '/docs/宿舍篇/待补充',
+    description: '电费、热水、洗衣、门禁、网络和住宿规格。',
+    to: '/docs/宿舍篇/宿舍生活',
   },
   {
     title: '学习与课程',
@@ -40,7 +40,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <p className={styles.heroDescription}>
-          面向成都大学新生的非官方速查手册：先按新生报到走通，再慢慢补宿舍、课程和食堂。
+          面向成都大学新生的非官方速查手册：先按新生报到走通，再熟悉宿舍、课程和食堂。
         </p>
         <div className={styles.buttons}>
           <Link
